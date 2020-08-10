@@ -1,0 +1,15 @@
+{
+    "name": "nolions/php-i18n-demo",
+    "authors": [
+        {
+            "name": "nolions",
+            "email": "lv2410@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "I18n\\":"lang/"
+        }
+    }
+}

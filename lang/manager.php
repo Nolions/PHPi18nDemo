@@ -1,6 +1,15 @@
 <?php
 
-require_once "config.php";
-require_once "Language.php";
+require_once './vendor/autoload.php';
+
+use I18n\Language;
+
+$langConfig = [
+    'default' => 'en',
+    'list' => [
+        'zh-tw',
+        'zh-cn',
+    ],
+];
 
 $Language = new Language($langConfig);
